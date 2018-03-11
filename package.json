@@ -1,0 +1,25 @@
+{
+  "name": "ember-present-server",
+  "version": "0.0.1",
+  "description": "A simple socket server for ember-present",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GavinJoyce/ember-present-server.git"
+  },
+  "author": "Gavin Joyce",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GavinJoyce/ember-present-server/issues"
+  },
+  "homepage": "https://github.com/GavinJoyce/ember-present-server#readme",
+  "dependencies": {
+    "ember-present": "^0.0.8",
+    "express": "^4.16.2",
+    "socket.io": "^2.0.4",
+    "uuid": "^3.2.1"
+  }
+}
