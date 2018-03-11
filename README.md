@@ -8,7 +8,7 @@ Instructions for an EC2 instance:
  * curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
  * nvm install 9.8.0
  * nvm use 9.8.0
- * wget https://github.com/GavinJoyce/ember-present/archive/master.zip
- * sudo apt-get install unzip
- * unzip master.zip
- * cd ember-present-master/socket-server
+ * git clone https://github.com/GavinJoyce/ember-present-server.git
+ * cd ember-present-server
+ * npm install
+ * node index.js
